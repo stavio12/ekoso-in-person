@@ -1,0 +1,35 @@
+body {
+  background-color: #e6e6e6;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+}
+
+td {
+  font-size: 15px;
+}
+
+.btn-primary,
+.btn-primary:hover {
+  background-color: #399b5a;
+  border: none;
+}
+
+.btn-primary:active {
+  background-color: #399b5abe !important;
+  box-shadow: none;
+}
+
+.user {
+  /* height: 10em; */
+  height: 80vh;
+  overflow-x: scroll;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  background: #153054;
+}
+
+.user-name {
+  color: #110f6d;
+}
